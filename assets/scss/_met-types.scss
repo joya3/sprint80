@@ -1,0 +1,29 @@
+//Font sizes
+
+$sizes: 10, 11, 12, 13, 14, 15, 16, 18, 20, 24, 30;
+$weights:300, 400, 500, 600, 700;
+
+
+/*met font sizes*/
+@each $size in $sizes {
+  .font-size-#{$size} {
+    font-size: #{$size}px;
+  }
+}
+
+/*met font weights*/
+@each $weight in $weights {
+    .font-weight-#{$weight} {
+      font-weight: #{$weight};
+    }
+  }
+
+
+/*met font family*/
+$font-family-lucidagrande: "LucidaGrande", Helvetica;
+$font-family-roboto: "Roboto", Helvetica;
+$font-family-roboto_slab: "Roboto Slab", Helvetica;
+$font-family-robotocondensed-bold: "RobotoCondensed-Bold", Helvetica;
+$font-family-robotocondensed-light: "RobotoCondensed-Light", Helvetica;
+$font-family-stixgeneral-regular: "STIXGeneral-Regular", Helvetica;
+
