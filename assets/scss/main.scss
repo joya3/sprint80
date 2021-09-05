@@ -16,6 +16,12 @@ $dark: #2f313b;
 @import '../../node_modules/bootstrap/scss/_functions';
 @import '../../node_modules/bootstrap/scss/_variables';
 
+
+//import custom functions & variables
+@import '../scss/met-colors';
+@import '../scss/met-types';
+
+
 $cutom-theme-colors:(
 //colors Balck to dark grays
 $black: #000,
@@ -65,4 +71,18 @@ $theme-colors: map-merge($cutom-theme-colors, $theme-colors);
 
 //import boostraps
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+body, label, span, h1, h2, h3, p{
+	font-family:$font-family-roboto;
+}
+
+body 
+	 {
+	background:$dark url(../img/bg.png) no-repeat  center fixed;
+		height: 100%;
+		background-size: cover; 
+	}
+
+
 
