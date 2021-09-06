@@ -7,11 +7,6 @@
 @import 'base/reset';
 
 
-// IMPORT THE sections
-@import 'sections/navbar';
-@import 'sections/header';
-@import 'sections/footer';
-
 // IMPORT THE COMPONENTS 
 /* @import 'components/buttons';
 @use 'components/mixins';
@@ -19,6 +14,12 @@
 
 // bootstraps
 @import 'custom';
+
+
+// IMPORT THE sections
+@import 'sections/navbar';
+@import 'sections/header';
+@import 'sections/footer';
 
 
 

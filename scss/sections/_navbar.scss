@@ -1,26 +1,57 @@
+//import colors
+@import '../abstracts/colors';
+
+//@use  '../custom' as custom;
+//navbar styles
+@use '../custom' as *;
+@use '../components/mixin' as *;
 
 
-// Metabanq styles
-body, label, span, h1, h2, h3, p{
-	font-family:$font-family-roboto;
-}
-
-body{
-	background:url('../assets/img/bg.png') no-repeat center fixed;
-}
 
 //navbar styles
 
-.navbar{
+menu.navbar{
 	padding:0;
+	margin:0;
+	li {
+		padding: 0 0.7rem;
+  
+		a {
+		  color: $gray-100;
+		  padding: 0 0.7rem;
+		  text-transform: capitalize;
+		  font-weight: 600;      
+  
+		}
+		&:hover {
+		  color: $white;
+		}
+		.nav-link.active
+		{
+			background: $gray-1000;
+			border-bottom: 2px solid $blue;
+		}
+		
+	  }	
+	
 }
 .navbar-dark 
-{.navbar-brand {
+{
+	.navbar-brand 
+	{
     color: $gray-100;
 }
 }
-.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .nav-link.active
-{
-	background: $gray-1000;
-	border-bottom: 2px solid $blue;
-}
+
+.dropdown-menu{
+	background: $gray-700;
+	color:$gray-200;
+	.dropdown-item:hover, .dropdown-item:focus
+	{
+		background: $gray-600;
+	}
+	.dropdown-item{
+		color:$gray-100;
+	}
+} 
+
