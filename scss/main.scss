@@ -6,14 +6,16 @@
 // IMPORT THE Reset 
 @import 'base/reset';
 
-
-// IMPORT THE COMPONENTS 
-/* @import 'components/buttons';
-@use 'components/mixins';
-@use 'components/modal'; */
-
 // bootstraps
 @import 'custom';
+
+// IMPORT THE COMPONENTS 
+ @import 'components/button';
+ @import 'components/modal';
+ /* 
+@use 'components/mixins';
+  */
+
 
 
 // IMPORT THE sections

@@ -1,3 +1,16 @@
 @import "../abstracts/colors";
 
 
+
+.modal-content
+{
+ background-color: $gray-700;
+.modal-header,
+.modal-footer{
+ background-color: $gray-800;
+ color: $gray-100;
+}
+.btn-close{
+    color:$gray-300;
+}
+}
