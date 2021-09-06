@@ -4,7 +4,13 @@
 @import 'abstracts/met-types';
 
 // IMPORT THE Reset 
-@use 'base/reset';
+@import 'base/reset';
+
+
+// IMPORT THE sections
+@import 'sections/navbar';
+@import 'sections/header';
+@import 'sections/footer';
 
 // IMPORT THE COMPONENTS 
 /* @import 'components/buttons';

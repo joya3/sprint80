@@ -1,0 +1,26 @@
+
+
+// Metabanq styles
+body, label, span, h1, h2, h3, p{
+	font-family:$font-family-roboto;
+}
+
+body{
+	background:url('../assets/img/bg.png') no-repeat center fixed;
+}
+
+//navbar styles
+
+.navbar{
+	padding:0;
+}
+.navbar-dark 
+{.navbar-brand {
+    color: $gray-100;
+}
+}
+.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .nav-link.active
+{
+	background: $gray-1000;
+	border-bottom: 2px solid $blue;
+}
