@@ -2,6 +2,9 @@
 // style.scss
 @import 'abstracts/colors';
 
+// bootstraps
+@import 'custom';
+
 body{
-	background: $gray-900;
+	background:url('../assets/img/bg.png') no-repeat center fixed;
 }
