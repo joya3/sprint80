@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAEA,IAAI,CAAJ,kBAAI,CAEJ,AAAA,IAAI,AAAA,CACH,UAAU,CAAC,GAAG,CACd",
+    "mappings": "AAIA,AAAA,IAAI,AAAA,CACH,UAAU,CCJF,IAAI,CDKZ",
     "sources": [
-        "../../scss/main.scss"
+        "../../scss/main.scss",
+        "../../scss/abstracts/_colors.scss"
     ],
     "names": [],
     "file": "main.min.css"

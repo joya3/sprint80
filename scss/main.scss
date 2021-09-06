@@ -1,7 +1,7 @@
 
 // style.scss
-@use 'abstracts/colors';
+@import 'abstracts/colors';
 
 body{
-	background: colors.$primary;
+	background: $primary;
 }
