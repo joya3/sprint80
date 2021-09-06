@@ -1,2 +1,25 @@
-//custom variables
-$primary:gray;
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #eff3ff;//$gray1: #eff3ff;
+$gray-200: #eef3ff;//$zumthor: #eef3ff;
+$gray-300: #969696;//$mountain-mist: #969696;
+$gray-400: #65718a;//$storm-gray: #65718a;
+$gray-500: #525b6d;//$black-coral-pearl: #525b6d;
+$gray-600: #444b5a;//$river-bed: #444b5a;
+$gray-700: #383c49;//$ship-gray: #383c49;
+$gray-800: #2f313b;//$outer-space: #2f313b;
+$gray-900: #262830; //$baltic-sea: #262830;
+$black:    #000;
+
+//custom scss-docs-start color-variables
+$blue:    #0084ff;//$azure-radiance: #0084ff;
+$indigo:  #6610f2;
+$purple:  #a021e9;//$electric-violet: #a021e9;
+$pink:    #D50091;//$pink: #D50091;
+$red:     #e93c2d;//$cinnabar: #e93c2d;
+$orange:  #fd7e14;
+$yellow:  #F39E2F;//$Amber:#F39E2F;
+$green:   #198754;
+$teal:    #32a358;//$chateau-green: #32a358;
+$cyan:    #8b9dc8;//$polo-blue: #8b9dc8;
+//custom scss-docs-end color-variables
