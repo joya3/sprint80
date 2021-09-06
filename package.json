@@ -21,5 +21,8 @@
   "homepage": "https://github.com/joya3/sprint80#readme",
   "dependencies": {
     "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.39.0"
   }
 }
