@@ -1,0 +1,7 @@
+@import '../abstracts/colors';
+
+.btn-primary{
+    color:$gray-100;
+    background-color:$blue;
+    border-color:$blue-hover;
+}

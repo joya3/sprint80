@@ -1,10 +1,21 @@
 
-// style.scss
+// IMPORT THE Abstracts
 @import 'abstracts/colors';
+@import 'abstracts/met-types';
+
+// IMPORT THE Reset 
+@use 'base/reset';
+
+// IMPORT THE COMPONENTS 
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/modal';
 
 // bootstraps
 @import 'custom';
 
-body{
-	background:url('../assets/img/bg.png') no-repeat center fixed;
-}
+
+
+// IMPORT THE SECTIONS 
+/* @use 'sections/navbar';
+@use 'sections/footer'; */

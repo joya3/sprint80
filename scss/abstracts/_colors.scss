@@ -1,4 +1,4 @@
-// scss-docs-start gray-color-variables
+// white & gray color variables
 $white:    #fff;
 $gray-100: #eff3ff;//$gray1: #eff3ff;
 $gray-200: #eef3ff;//$zumthor: #eef3ff;
@@ -9,6 +9,7 @@ $gray-600: #444b5a;//$river-bed: #444b5a;
 $gray-700: #383c49;//$ship-gray: #383c49;
 $gray-800: #2f313b;//$outer-space: #2f313b;
 $gray-900: #262830; //$baltic-sea: #262830;
+$gray-1000:#1b1d23;//eerie-black : #1b1d23;
 $black:    #000;
 
 //custom scss-docs-start color-variables
@@ -24,5 +25,8 @@ $teal:    #32a358;//$chateau-green: #32a358;
 $cyan:    #8b9dc8;//$polo-blue: #8b9dc8;
 //custom scss-docs-end color-variables
 
+//Metabanq Theme
+$primary: $gray-700;
+$lighter-primary: lighten($primary, 16%);
 
-$primary:       $blue;
+$blue-hover: darken($blue, -16%);

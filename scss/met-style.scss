@@ -1,41 +1,3 @@
-//urls import
-@import url("../css/css2.css");
-@import url("../css/reset.min.css");
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-@import 'met-colors.scss';
-@import 'met-types.scss';
-
-//Imports
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-
-@import 'vendors/bootstrap';
-
-@import 'base/reset';
-@import 'base/typography';
-
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
-
-@import 'components/buttons';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
-
-@import 'pages/home';
-@import 'pages/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';
 
 
 @mixin header{
@@ -71,9 +33,7 @@ body
 
 
 
-body, label, span, h1, h2, h3, p{
-	font-family:$font-family-roboto;
-}
+
 
  span{ 
 font-family:$font-family-roboto;

@@ -1,4 +1,104 @@
-// Metabanq THEME COLORS 
 
 
+$theme-colors: (
+	"primary": #0074d9,
+	"danger": #ff4136
+  );
+
+// function, variables & mixins
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+// font 
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+
+// bootstraps
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+// Metabanq styles
+body, label, span, h1, h2, h3, p{
+	font-family:$font-family-roboto;
+}
+
+body{
+	//background:url('../assets/img/bg.png') no-repeat center fixed;
+	background: $lighter-primary;
+}
+
+//navbar styles
+
+.navbar{
+	padding:0;
+}
+.navbar-dark 
+{.navbar-brand {
+    color: $gray-100;
+}
+}
+.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .nav-link.active
+{
+	background: $gray-1000;
+	border-bottom: 2px solid $blue;
+}
+
+
+//@at-root
+
+.modal{
+	height:auto;
+	width:100%;
+
+.modal-content{
+	background:$gray-700;
+}
+
+.modal-dialog {
+   
+    margin-top: .9rem;
+}
+	
+.modal-body{
+    background:$gray-700;
+    color:$gray1;
+		width: 100%;
+		text-align: center;
+		margin: auto;
+		.btn-close {
+			width: 1.3em;
+			position: absolute;
+			right: 15px;
+			top: 15px;			
+			right: 15px;
+		}
+    
+}
+.modal-footer,
+.modal-header
+{
+	padding:0;
+    background-color:$gray-800;
+    border-top:$gray-700;
+    width: 100%;
+    text-align: center;
+    display: block;
+	border-color:$gray-900;
+}
+
+}
+
+//
+
+/* Button style */
+
+.btn-primary{
+    color:$gray-100;
+    background-color:$blue;
+    border-color:$blue-hover;
+}
