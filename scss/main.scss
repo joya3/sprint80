@@ -7,7 +7,7 @@
 @use 'base/reset';
 
 // IMPORT THE COMPONENTS 
-@use 'components/buttons';
+@import 'components/buttons';
 @use 'components/mixins';
 @use 'components/modal';
 

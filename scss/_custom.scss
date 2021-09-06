@@ -1,104 +1,13 @@
+@import "abstracts/colors";
+
+// ACCORDION OVERRIDES
+$accordion-icon-color:                    $primary; 
+$accordion-icon-active-color:           $secondary;
+// $accordion-icon-width:                    1.875rem; // LEAVE THE WIDTH TO DEFAULT
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/> <path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>  <path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
 
 
-$theme-colors: (
-	"primary": #0074d9,
-	"danger": #ff4136
-  );
 
-// function, variables & mixins
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");
-
-// font 
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-
-// bootstraps
+// - IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
-
-
-
-// Metabanq styles
-body, label, span, h1, h2, h3, p{
-	font-family:$font-family-roboto;
-}
-
-body{
-	//background:url('../assets/img/bg.png') no-repeat center fixed;
-	background: $lighter-primary;
-}
-
-//navbar styles
-
-.navbar{
-	padding:0;
-}
-.navbar-dark 
-{.navbar-brand {
-    color: $gray-100;
-}
-}
-.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .nav-link.active
-{
-	background: $gray-1000;
-	border-bottom: 2px solid $blue;
-}
-
-
-//@at-root
-
-.modal{
-	height:auto;
-	width:100%;
-
-.modal-content{
-	background:$gray-700;
-}
-
-.modal-dialog {
-   
-    margin-top: .9rem;
-}
-	
-.modal-body{
-    background:$gray-700;
-    color:$gray1;
-		width: 100%;
-		text-align: center;
-		margin: auto;
-		.btn-close {
-			width: 1.3em;
-			position: absolute;
-			right: 15px;
-			top: 15px;			
-			right: 15px;
-		}
-    
-}
-.modal-footer,
-.modal-header
-{
-	padding:0;
-    background-color:$gray-800;
-    border-top:$gray-700;
-    width: 100%;
-    text-align: center;
-    display: block;
-	border-color:$gray-900;
-}
-
-}
-
-//
-
-/* Button style */
-
-.btn-primary{
-    color:$gray-100;
-    background-color:$blue;
-    border-color:$blue-hover;
-}
