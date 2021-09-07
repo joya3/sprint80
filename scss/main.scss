@@ -16,15 +16,12 @@
 @use 'components/mixins';
   */
 
-
-
 // IMPORT THE sections
 @import 'sections/navbar';
 @import 'sections/header';
 @import 'sections/footer';
 
 
+// IMPORT THE sections
+@import 'pages/splash';
 
-// IMPORT THE SECTIONS 
-/* @use 'sections/navbar';
-@use 'sections/footer'; */

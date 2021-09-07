@@ -1,0 +1,29 @@
+
+
+// Metabanq styles
+body, label, span, h1, h2, h3, p{
+	font-family:$font-family-roboto;
+}
+
+body{
+	background:url('../assets/img/bg.png') no-repeat center fixed;
+}
+
+//import colors
+@import '../abstracts/colors';
+
+//@use  '../custom' as custom;
+@use '../custom' as *;
+@use '../components/mixin' as *;
+
+
+.met-splash{
+    .btn-link{
+        color:$gray-100;
+        text-decoration: none;
+    }
+    .btn-link:hover{
+        color:$gray-100-light;
+    }
+
+}
